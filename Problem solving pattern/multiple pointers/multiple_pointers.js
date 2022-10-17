@@ -57,5 +57,6 @@ function countUniqueValues(arr){
     }
     return i + 1;
 }
-
-console.log(countUniqueValues([1, 1, 1, 2, 2, 3, 4, 5, 5, 5, 6, 7]))
+                                                 i     
+console.log(countUniqueValues([1, 2, 3, 4, 5, 6, 7, 5, 5, 5, 6, 7]))
+                                                                j  
