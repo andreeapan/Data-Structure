@@ -49,3 +49,4 @@ function radixSort(nums){
 
 console.log("getDigit", getDigit(254, 2))
 console.log("digitCount", digitCount(234))
+console.log("radixSort", radixSort([234, 1, 44322, 22, 51, 1231]))
