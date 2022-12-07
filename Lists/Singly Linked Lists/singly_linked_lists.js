@@ -8,6 +8,17 @@
  * 6. Return the linked list
  */
 
+/**
+ *          a=5;
+            b=3;
+            c;
+
+            c=a;
+            a=b;
+            b=c;
+
+ */
+
 class Node{
 
     constructor(val){
@@ -143,6 +154,10 @@ class SinglyLinkedList{
             node.next = prev;
             prev = node;
             node = next;
+
+    
+            
+            
         }
         return this;
     }
